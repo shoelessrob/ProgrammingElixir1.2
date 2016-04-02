@@ -6,4 +6,4 @@ defmodule Parallel do
   end
 end
 
-result = Parallel.pmap 1..1000, &(&1*&1)
+result = Parallel.pmap 1..10000000000, &(&1*&1)
